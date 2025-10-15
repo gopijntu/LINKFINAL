@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_drawer"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_az_drawer"
+            android:icon="@drawable/ic_az"
+            android:title="A-Z" />
+        <item
+            android:id="@+id/nav_favorites_drawer"
+            android:icon="@drawable/ic_heart"
+            android:title="Favorites" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_twitter"
+                android:title="Login with Twitter" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="Login with Instagram" />
+            <item
+                android:id="@+id/nav_linkedin"
+                android:icon="@drawable/ic_linkedin"
+                android:title="Login with LinkedIn" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="Login with Facebook" />
+        </menu>
+    </item>
+
+</menu>
